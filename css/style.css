@@ -51,6 +51,21 @@ body {
     font-weight: lighter;
 }
 
+.card{
+    padding: 0px;
+    border-radius: 0px 75px;
+}
+
+.card-img-top{
+    border-radius: 0px 75px;
+    max-height: 45%;
+}
+
+.card-title{
+    position: relative;
+    display: inline;
+}
+
 footer{
     background-image: url("resources/grains.png");
 }
