@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;700&display=swap');
 
-a.navbar-brand {
+body {
     font-family: 'Alexandria', sans-serif;
+}
+
+.nav-item{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-item:hover{
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: aqua;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.navbar-nav{
+    align-items: flex-start;
 }
