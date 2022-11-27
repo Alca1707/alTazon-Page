@@ -1,0 +1,19 @@
+CREATE TABLE admins (
+	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    fullname VARCHAR (100),
+   	email VARCHAR (100) NOT NULL UNIQUE,
+    adminPw VARCHAR (15)
+);
+
+CREATE TABLE menu(
+	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR (100),
+    description VARCHAR (200)
+);
+
+INSERT INTO admins (fullname, email, adminPw) 
+VALUES ('John Doe', 'johndoe@gmail.com', '123');
+
+INSERT INTO menu('name', 'description')
+VALUES ('Dumplings', 'Delicius dumplings filled with chicken and cheese'),
+('Noodles storm', 'Chao mein prepared using chinese style with shrimp, steak and veggies')
