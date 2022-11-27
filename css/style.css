@@ -4,19 +4,53 @@ body {
     font-family: 'Alexandria', sans-serif;
 }
 
+.navbar-collapse{
+    align-items: flex-end;
+}
+
 .nav-item{
     padding-left: 10px;
     padding-right: 10px;
+    border-radius: 50px;
 }
 
 .nav-item:hover{
+    background-color: #f74b47;
     font-weight: bold;
-    border-radius: 50px;
-    background-color: aqua;
-    padding-left: 7px;
-    padding-right: 7px;
 }
 
-.navbar-nav{
-    align-items: flex-start;
+.nav-item:hover .nav-link{
+    color: white;
+}
+
+.title{
+    font-weight: bold;
+}
+
+.buttonStyle{
+
+    text-decoration: none;
+    padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 50px;
+    background-color: #f74b47;
+    font-weight: bold;
+    color: white;
+}
+
+.buttonStyle:hover{
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 50px;
+    background-color: #f4d348;
+    color: white;
+}
+
+.simpleText{
+    font-weight: lighter;
+}
+
+footer{
+    background-image: url("resources/grains.png");
 }
