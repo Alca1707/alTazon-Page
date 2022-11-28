@@ -4,10 +4,6 @@ body {
     font-family: 'Alexandria', sans-serif;
 }
 
-.navbar-collapse{
-    align-items: flex-end;
-}
-
 .nav-item{
     padding-left: 10px;
     padding-right: 10px;
@@ -28,11 +24,10 @@ body {
 }
 
 .buttonStyle{
-
     text-decoration: none;
     padding: 15px;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 45px;
+    padding-right: 45px;
     border-radius: 50px;
     background-color: #f74b47;
     font-weight: bold;
@@ -40,9 +35,6 @@ body {
 }
 
 .buttonStyle:hover{
-    padding-left: 45px;
-    padding-right: 45px;
-    border-radius: 50px;
     background-color: #f4d348;
     color: white;
 }
@@ -53,18 +45,13 @@ body {
 
 .card{
     padding: 0px;
-    border-radius: 0px 75px;
+    border-radius: 0px 55px;
 }
 
 .card-img-top{
-    border-radius: 0px 75px;
-    max-height: 45%;
+    border-radius: 0px 55px;
 }
 
-.card-title{
-    position: relative;
-    display: inline;
-}
 
 footer{
     background-image: url("resources/grains.png");
